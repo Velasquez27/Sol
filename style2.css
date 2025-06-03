@@ -73,7 +73,7 @@ main {
 
 .paper {
   position: absolute;
-  top: -20px; /* <- ¡Nueva línea añadida! */
+  top: -10px; /* <- ¡Nueva línea añadida! */
   padding: 1.5rem;
   line-height: 2rem;
   right: 5px;
@@ -121,7 +121,7 @@ main {
 
 @keyframes openPaper {
   0% {
-    top: -20px;
+    top: -10px;
   }
   100% {
     top: -180px; /* Súbela más si quieres mostrar más texto */
@@ -130,10 +130,10 @@ main {
 
 @keyframes closePaper {
   0% {
-    top: -140px;
+    top: -180px;
   }
   100% {
-    top: -20px;
+    top: -10px;
   }
 }
 
